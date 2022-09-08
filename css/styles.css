@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  font-family: "$fontBaloo";
+}
+header .logo__nav {
+  width: 40%;
+}
+header .background-color {
+  background-color: #1B262C;
+}
+header .nav-link {
+  color: #fff;
+}
+
+.conteiner_cover img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 50vh;
+  width: 100%;
+}
+
+.conteiner__products {
+  background-color: #1B262C;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  font-family: "Baloo 2", cursive;
+}
+.conteiner__products .card__1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 70vh;
+  background-color: rgb(255, 255, 255);
+  margin-left: 20%;
+  border-top-right-radius: 70px;
+  border-bottom-left-radius: 70px;
+  font-family: "TTNorms-ExtraBold";
+  font-size: 2em;
+}
+.conteiner__products .card__1 img {
+  width: 50%;
+}
+.conteiner__products .card__1 .btn {
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  font-family: "TTNorms-ExtraBold";
+  font-size: 20px;
+  background-color: #BBE1FA;
+  margin-top: 15px;
+}
+.conteiner__products .card__1:hover {
+  width: 28%;
+  transition: 1s;
+}
+.conteiner__products .card__2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 70vh;
+  background-color: rgb(255, 255, 255);
+  margin-right: 20%;
+  border-top-right-radius: 70px;
+  border-bottom-left-radius: 70px;
+  font-family: "TTNorms-ExtraBold";
+  font-size: 2em;
+}
+.conteiner__products .card__2 h3 {
+  font-size: 0.9em;
+  margin-bottom: 9%;
+}
+.conteiner__products .card__2 p {
+  padding-bottom: 2%;
+}
+.conteiner__products .card__2 img {
+  width: 70%;
+}
+.conteiner__products .card__2 .btn {
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  font-family: "TTNorms-ExtraBold";
+  font-size: 20px;
+  background-color: #BBE1FA;
+  margin-top: 15px;
+}
+.conteiner__products .card__2:hover {
+  width: 28%;
+  transition: 1s;
+}
+
+.conteiner_video-presentacion {
+  background-color: #1B262C;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.conteiner_video-presentacion .square_conteiner {
+  background-color: #880404;
+  height: 30vh;
+  width: 98.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 3%;
+}
+.conteiner_video-presentacion .square_conteiner h3 {
+  color: white;
+}
+
+footer {
+  display: flex;
+  height: 10vh;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-left: 10%;
+  background-color: #0F4C75;
+}
+footer div a img {
+  width: 15%;
+}
+
+.section__aboutus {
+  background-image: url(../assets/img/Fondocover.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-color: #1B262C;
+}
+.section__aboutus h2 {
+  margin-left: 45%;
+  color: #fff;
+  background-color: #1B262C;
+  padding-top: 3%;
+}
+.section__aboutus .nosotros__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8rem;
+}
+.section__aboutus .nosotros__info .nosotros__info-text {
+  font-family: TTNorms-Regular;
+  color: #fff;
+  font-size: 1.8em;
+  width: 900px;
+  height: 600px;
+  margin-left: 100px;
+  overflow: scroll;
+}
+.section__aboutus .nosotros__info .nosotros__info-text div .section__aboutus img {
+  width: 800px;
+  margin-right: 100px;
+  margin-bottom: 5em;
+}
+.section__aboutus .nosotros__info .nosotros__info-text::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+  background-color: rgb(224, 255, 245);
+}
+
+.section__aboutus img {
+  width: 800px;
+  margin-right: 100px;
+  margin-bottom: 5em;
+}/*# sourceMappingURL=styles.css.map */

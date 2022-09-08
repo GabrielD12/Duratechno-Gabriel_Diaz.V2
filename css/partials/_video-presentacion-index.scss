@@ -1,0 +1,30 @@
+.conteiner_video-presentacion{
+    background-color: $colorPrincipal;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+
+    .square_conteiner{
+        background-color: $colorDetalles3;
+        height: 30vh;
+        width: 98.5vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 3%;
+        
+        
+        h3{
+            color: white;
+            
+        }
+    }
+
+
+}
+   
