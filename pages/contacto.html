@@ -1,49 +1,105 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>DURATECHNO - Contacto</title>
-    <meta name="description" content="Acesoramiento personalizado para cada cliente.">
-    <meta name="keywords" content="contacto, home studio, filmmaker, tecnologia, accesorios para musicos">
+    <meta name="description" content="Encontrá el producto que se adapte a tus necesidades.">
+    <meta name="keywords" content="home studio, filmmaker, tecnologia, accesorios para musicos, productos">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="../css/styles.css">
-
+    <!-- GOOGLE FONTs -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 </head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg background-color">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="./index.html">
-                <img class="logo__nav" src="../assets/img/logoduratechno.svg" alt="logo">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="../index.html">INICIO</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="../pages/nosotros.html" target="_blank">NOSOTROS</a>
-                </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/productos.html" target="_blank">PRODUCTOS</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="../pages/reviews.html" target="_blank">REVIEWS</a>
-                </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/contacto.html" target="_blank">CONTACTO</a>
-                  </li>
-                </ul>
-              </div>
+<body class="body_contacto">
+  <header>
+    <nav class="navbar navbar-expand-lg background-color">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+            <img class="logo__nav" src="../assets/img/logoduratechno.svg" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="../pages/nosotros.html" target="_blank">NOSOTROS</a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/productos.html" target="_blank">PRODUCTOS</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="../pages/reviews.html" target="_blank">REVIEWS</a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/contacto.html" target="_blank">CONTACTO</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+  </header>
+    
+  <div class="content">
+
+        <h1 class="logo">Contactate con <span>Nosotros</span></h1>
+
+        <div class="contact-wrapper animated bounceInUp">
+            <div class="contact-form">
+                <h3>Contactanos</h3>
+                <form action="">
+                    <p>
+                        <label>Nombre y Apellido</label>
+                        <input type="text" name="fullname">
+                    </p>
+                    <p>
+                        <label>Direccioón de mail</label>
+                        <input type="email" name="email">
+                    </p>
+                    <p>
+                        <label>Teléfono</label>
+                        <input type="tel" name="phone">
+                    </p>
+                    <p>
+                        <label>Asunto</label>
+                        <input type="text" name="affair">
+                    </p>
+                    <p class="block">
+                       <label>Mensaje</label> 
+                        <textarea name="message" rows="3"></textarea>
+                    </p>
+                    <p class="block">
+                        <button>
+                           Enviar
+                        </button>
+                    </p>
+                </form>
             </div>
-        </nav>
-    </header>
-    <footer> 
+            <div class="contact-info">
+                <h4>Mas información</h4>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> La Plata, Bs. As.</li>
+                    <li><i class="fas fa-phone"></i> (111) 111 111 111</li>
+                    <li><i class="fas fa-envelope-open-text"></i> 02gabrieldiaz@gmail.com</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero provident ipsam necessitatibus repellendus?</p>
+                <p>www.duratechno.com</p>
+            </div>
+        </div>
+
+  </div>
+
+  <footer> 
       <div>
           <a href="https://www.instagram.com/duratechno/" target="_blank">
               <img class="footer_img" src="../assets/img/instagram_logo.svg" alt="Icono Instagram">
@@ -59,7 +115,8 @@
               <img class="footer_img" src="../assets/img/facebook_logo.svg" alt="Icono Facebook">
           </a>
       </div> 
-    </footer>  
+  </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
 </body>
 </html>
