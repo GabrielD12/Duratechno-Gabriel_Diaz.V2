@@ -1,8 +1,4 @@
 .section__aboutus{
-    background-image: url(../assets/img/Fondocover.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
     background-color: $colorPrincipal;
     h2{
         margin-left: 45%;
@@ -20,20 +16,13 @@
         .nosotros__info-text{
             font-family:TTNorms-Regular;
             color:#fff;
-            font-size: 1.8em;
-            width: 900px;
-            height: 600px;
+            font-size: 1em;
+            width: 30em;
+            height: 10em;
             margin-left: 100px;
             overflow: scroll;
 
-            div{
-                .section__aboutus img{
-                    width: 800px;
-                    margin-right: 100px;
-                    margin-bottom: 5em;
-                }
-
-            }
+    
 
             
             
@@ -54,10 +43,10 @@
 }
 
 .section__aboutus img{
-    width: 800px;
-    margin-right: 100px;
-    margin-bottom: 5em;
+    width: 500px;
+    
 }
+
 
 
 
