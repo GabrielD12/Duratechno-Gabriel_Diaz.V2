@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     height: 100vh;
-    font-family: $fontBaloo;
+    
 
     .card__1{
         display: flex;
@@ -17,7 +17,6 @@
         margin-left: 20%;
         border-top-right-radius: 70px;
         border-bottom-left-radius: 70px;
-        font-family:"TTNorms-ExtraBold";
         font-size: 2em;
 
         img{
@@ -52,7 +51,6 @@
         margin-right: 20%;
         border-top-right-radius: 70px;
         border-bottom-left-radius: 70px;
-        font-family:"TTNorms-ExtraBold";
         font-size: 2em;
 
         h3{
@@ -90,3 +88,63 @@
 }
 
 
+
+@media screen and (max-width: 768px){
+
+    .conteiner__products{
+        flex-direction: row; 
+        justify-content: space-evenly; 
+        padding: 10%;  
+        height: auto;
+        margin-left: 0;
+        
+
+        .card__1{
+            width: 50%;
+            margin: 2%;
+            
+        }
+
+        .card__1:hover{
+            width: 60%;
+            margin: 2%;
+            
+        }
+
+
+
+        .card__2{
+            width: 50%;
+            margin: 2%;
+        }
+
+        .card__2:hover{
+            width: 60%;
+            margin: 2%;
+            
+        }
+        
+
+    }
+
+}
+
+@media screen and (max-width: 480px){
+
+    .conteiner__products{
+        flex-direction: column;
+
+
+        .card__1{
+            width: 60%;
+            
+        }
+
+        .card__2{
+            width: 60%;
+        }
+
+    }
+
+
+}

@@ -32,4 +32,60 @@
 
 
 }
-   
+
+
+@media screen and (max-width: 480px){
+
+    .conteiner_video-presentacion{
+        height: auto;
+        padding: 10%;
+        flex-direction: column;
+        justify-content: space-around;
+
+
+        .square_conteiner{          
+            height: 20vh;
+            width: 98.5vw;
+            padding: 2%;
+            
+
+            
+            iframe{
+                height: 120%;
+                width: 60%;
+            }
+    
+        }
+
+
+    }
+
+
+}
+
+@media screen and (max-width: 768px){
+
+    .conteiner_video-presentacion{
+        height: auto;
+        padding: 5%;
+        flex-direction: column;
+
+
+        .square_conteiner{          
+            height: 20vh;
+            width: 98.5vw;
+            
+           
+            
+            iframe{
+                height: 120%;
+            }
+    
+        }
+
+
+    }
+
+}
+
+
